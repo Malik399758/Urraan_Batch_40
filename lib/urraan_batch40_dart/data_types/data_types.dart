@@ -6,7 +6,7 @@
  /* // integer
    // declare
    int a;
-   // initilize
+   // initialize
    a = 1000;
    print(a);*/
 
@@ -75,3 +75,4 @@
 
 
  }
+
