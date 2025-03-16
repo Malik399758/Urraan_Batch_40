@@ -1,6 +1,8 @@
 
 // main
 
+import 'dart:io';
+
 void main(){
 
   // Map
@@ -134,6 +136,11 @@ void main(){
   print(no);
 
 
+
+  print('Enter first name');
+  String? name = stdin.readLineSync();
+
+  print(name);
 
 
 
