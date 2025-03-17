@@ -91,11 +91,11 @@ void main(){
 
   // Run time
 
-  print('Enter first name :');
+ /* print('Enter first name :');
   String? firstName = stdin.readLineSync();
   print('Enter last name');
   String? lastName = stdin.readLineSync();
-  print('The full name is $firstName $lastName');
+  print('The full name is $firstName $lastName');*/
 
 
 
@@ -114,21 +114,6 @@ void main(){
 
   print()
 */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 }
