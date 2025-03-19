@@ -1,16 +1,16 @@
  // Data types in dart
 
 
- void main(){
+ void main() {
 
- /* // integer
+  /* // integer
    // declare
    int a;
    // initialize
    a = 1000;
    print(a);*/
 
-   /// Double
+  /// Double
 
 
   // // double a = 10.6;
@@ -18,22 +18,22 @@
   //  print(a);
 
 
-   // String
+  // String
 
-   // $\ doesn't print
+  // $\ doesn't print
 
-   //String name = 'Yaseen Malik';
-   //String no = '123445';
-   //print(name);
-   //print(no);
+  //String name = 'Yaseen Malik';
+  //String no = '123445';
+  //print(name);
+  //print(no);
 
 /*   String email = 'ym399758@gmail.com';
    print(email);*/
 
 
- // Bool
+  // Bool
 
-   /*bool isActive = false;
+  /*bool isActive = false;
    print('This is the $isActive');
 
    bool isLoading = true;
@@ -52,7 +52,7 @@
 */
 
 
- // var and dynamic keyword
+  // var and dynamic keyword
 
   /* var no = 'yaseen';
    no = 12;
@@ -60,7 +60,7 @@
    print(no);*/
 
 
-   // Dynamic
+  // Dynamic
 /*
 
    dynamic name = 'Yaseen Malik';
@@ -74,8 +74,6 @@
 
 */
 
-
-
-
  }
+
 
