@@ -1,7 +1,9 @@
  // Data types in dart
 
 
- void main() {
+ import 'dart:io';
+
+void main() {
 
   /* // integer
    // declare
@@ -74,6 +76,43 @@
 
 */
 
+ print('Enter first no :');
+ int no1 = int.parse(stdin.readLineSync()!);
+ print('Enter second no :');
+ int no2 = int.parse(stdin.readLineSync()!);
+
+ int? result = exceptionHandling(no1, no2);
+ print(result);
+
+ Person person = Person();
+ pragma(person._name);
+
+
+
+
  }
 
+ int? exceptionHandling(int a,int b){
+ try{
+  return a~/b;
+ } on IntegerDivisionByZeroException{
+  print('You can not divide any number with zero');
+ }
+ catch(e){
+  throw Exception();
+ }
+ return 0;
+
+ }
+
+ class Person{
+  String _name = 'Abdullah';
+
+  get name async => _name;
+
+  set SetData(String value){
+   _name = value;
+  }
+
+ }
 

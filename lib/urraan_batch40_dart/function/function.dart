@@ -46,6 +46,7 @@ import 'dart:io';
   // main
 
  void main(){
+/*
   print('Enter first number : ');
   int? no1 = int.parse(stdin.readLineSync()!); // 20
   print('Enter second number :');
@@ -70,15 +71,30 @@ import 'dart:io';
 
 
   add1();
+*/
+
+
+  List no = [1,2,3,4,5];
+
+  for(var i in no){
+   if(i == 3){
+    print('Skip 3');
+    continue;
+   }
+   print(i);
+
+  }
 
  }
 
 
+/*
 
 
  void add1(){
    print('This is add');
  }
+*/
 
 
 
